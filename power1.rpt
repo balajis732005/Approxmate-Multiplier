@@ -1,0 +1,125 @@
+Loading db file '/home/admin/synopsys/EDK/SAED_EDK32.28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db'
+Loading db file '/home/admin/synopsys/EDK/SAED_EDK32.28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : approxmate_wallace
+Version: O-2018.06-SP3
+Date   : Wed Jan  3 08:15:27 2024
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /home/admin/synopsys/EDK/SAED_EDK32.28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+    saed32lvt_ss0p95v125c (File: /home/admin/synopsys/EDK/SAED_EDK32.28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32lvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+approxmate_wallace     8000              saed32lvt_ss0p95v125c
+comp2_2_0              ForQA             saed32lvt_ss0p95v125c
+comp3_2_0              ForQA             saed32lvt_ss0p95v125c
+comp3_2_1              ForQA             saed32lvt_ss0p95v125c
+comp3_2_2              ForQA             saed32lvt_ss0p95v125c
+comp3_2_3              ForQA             saed32lvt_ss0p95v125c
+comp3_2_4              ForQA             saed32lvt_ss0p95v125c
+comp3_2_5              ForQA             saed32lvt_ss0p95v125c
+comp3_2_6              ForQA             saed32lvt_ss0p95v125c
+comp3_2_7              ForQA             saed32lvt_ss0p95v125c
+comp3_2_8              ForQA             saed32lvt_ss0p95v125c
+comp3_2_9              ForQA             saed32lvt_ss0p95v125c
+comp3_2_10             ForQA             saed32lvt_ss0p95v125c
+comp3_2_11             ForQA             saed32lvt_ss0p95v125c
+comp3_2_12             ForQA             saed32lvt_ss0p95v125c
+comp3_2_13             ForQA             saed32lvt_ss0p95v125c
+comp3_2_14             ForQA             saed32lvt_ss0p95v125c
+comp3_2_15             ForQA             saed32lvt_ss0p95v125c
+comp3_2_16             ForQA             saed32lvt_ss0p95v125c
+comp3_2_17             ForQA             saed32lvt_ss0p95v125c
+comp3_2_18             ForQA             saed32lvt_ss0p95v125c
+comp3_2_19             ForQA             saed32lvt_ss0p95v125c
+comp3_2_20             ForQA             saed32lvt_ss0p95v125c
+comp3_2_21             ForQA             saed32lvt_ss0p95v125c
+comp3_2_22             ForQA             saed32lvt_ss0p95v125c
+comp3_2_23             ForQA             saed32lvt_ss0p95v125c
+comp3_2_24             ForQA             saed32lvt_ss0p95v125c
+comp3_2_25             ForQA             saed32lvt_ss0p95v125c
+comp3_2_26             ForQA             saed32lvt_ss0p95v125c
+comp3_2_27             ForQA             saed32lvt_ss0p95v125c
+comp3_2_28             ForQA             saed32lvt_ss0p95v125c
+comp3_2_29             ForQA             saed32lvt_ss0p95v125c
+comp3_2_30             ForQA             saed32lvt_ss0p95v125c
+comp3_2_31             ForQA             saed32lvt_ss0p95v125c
+comp3_2_32             ForQA             saed32lvt_ss0p95v125c
+comp3_2_33             ForQA             saed32lvt_ss0p95v125c
+comp3_2_34             ForQA             saed32lvt_ss0p95v125c
+comp3_2_35             ForQA             saed32lvt_ss0p95v125c
+comp3_2_36             ForQA             saed32lvt_ss0p95v125c
+comp3_2_37             ForQA             saed32lvt_ss0p95v125c
+comp3_2_38             ForQA             saed32lvt_ss0p95v125c
+comp3_2_39             ForQA             saed32lvt_ss0p95v125c
+comp3_2_40             ForQA             saed32lvt_ss0p95v125c
+comp3_2_41             ForQA             saed32lvt_ss0p95v125c
+comp3_2_42             ForQA             saed32lvt_ss0p95v125c
+comp3_2_43             ForQA             saed32lvt_ss0p95v125c
+comp3_2_44             ForQA             saed32lvt_ss0p95v125c
+comp3_2_45             ForQA             saed32lvt_ss0p95v125c
+comp3_2_46             ForQA             saed32lvt_ss0p95v125c
+comp2_2_1              ForQA             saed32lvt_ss0p95v125c
+comp2_2_2              ForQA             saed32lvt_ss0p95v125c
+comp2_2_3              ForQA             saed32lvt_ss0p95v125c
+comp2_2_4              ForQA             saed32lvt_ss0p95v125c
+comp2_2_5              ForQA             saed32lvt_ss0p95v125c
+comp2_2_6              ForQA             saed32lvt_ss0p95v125c
+comp2_2_7              ForQA             saed32lvt_ss0p95v125c
+comp2_2_8              ForQA             saed32lvt_ss0p95v125c
+comp2_2_9              ForQA             saed32lvt_ss0p95v125c
+comp2_2_10             ForQA             saed32lvt_ss0p95v125c
+comp2_2_11             ForQA             saed32lvt_ss0p95v125c
+comp2_2_12             ForQA             saed32lvt_ss0p95v125c
+comp2_2_13             ForQA             saed32lvt_ss0p95v125c
+comp2_2_14             ForQA             saed32lvt_ss0p95v125c
+comp2_2_15             ForQA             saed32lvt_ss0p95v125c
+comp2_2_16             ForQA             saed32lvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  33.6906 uW   (41%)
+  Net Switching Power  =  47.5262 uW   (59%)
+                         ---------
+Total Dynamic Power    =  81.2168 uW  (100%)
+
+Cell Leakage Power     = 380.7882 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential     -7.2751e+01           16.7462        3.7244e+08          316.4318 (  68.49%)
+combinational    106.4419           30.7801        8.3513e+06          145.5732  (  31.51%)
+--------------------------------------------------------------------------------------------------
+Total             33.6906 uW        47.5262 uW     3.8079e+08 pW       462.0050 uW
+1

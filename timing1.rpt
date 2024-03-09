@@ -1,0 +1,109 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : approxmate_wallace
+Version: O-2018.06-SP3
+Date   : Wed Jan  3 08:15:28 2024
+****************************************
+
+Operating Conditions: ss0p95v125c   Library: saed32lvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: a[5] (input port)
+  Endpoint: p[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  approxmate_wallace 8000                  saed32lvt_ss0p95v125c
+  comp3_2_43         ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_32         ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_21         ForQA                 saed32lvt_ss0p95v125c
+  comp2_2_4          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_9          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_8          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_7          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_6          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_5          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_4          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_3          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_2          ForQA                 saed32lvt_ss0p95v125c
+  comp3_2_1          ForQA                 saed32lvt_ss0p95v125c
+  comp2_2_1          ForQA                 saed32lvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  a[5] (in)                                               0.00       0.00 r
+  U116/Y (AND2X1_HVT)                                     0.07       0.07 r
+  genblk1[6].fa0/b (comp3_2_43)                           0.00       0.07 r
+  genblk1[6].fa0/U5/Y (XOR2X1_HVT)                        0.18       0.25 f
+  genblk1[6].fa0/U4/Y (XOR2X1_HVT)                        0.18       0.43 r
+  genblk1[6].fa0/s_reg/Q (LATCHX1_LVT)                    0.07       0.50 r
+  genblk1[6].fa0/s (comp3_2_43)                           0.00       0.50 r
+  genblk3[5].fa3/a (comp3_2_32)                           0.00       0.50 r
+  genblk3[5].fa3/U5/Y (XOR2X1_HVT)                        0.17       0.67 f
+  genblk3[5].fa3/U4/Y (XOR2X1_HVT)                        0.18       0.86 r
+  genblk3[5].fa3/s_reg/Q (LATCHX1_LVT)                    0.07       0.93 r
+  genblk3[5].fa3/s (comp3_2_32)                           0.00       0.93 r
+  genblk6[4].fa7/a (comp3_2_21)                           0.00       0.93 r
+  genblk6[4].fa7/U5/Y (XOR2X1_HVT)                        0.17       1.10 f
+  genblk6[4].fa7/U4/Y (XOR2X1_HVT)                        0.18       1.28 r
+  genblk6[4].fa7/s_reg/Q (LATCHX1_LVT)                    0.07       1.35 r
+  genblk6[4].fa7/s (comp3_2_21)                           0.00       1.35 r
+  genblk7[3].ha10/a (comp2_2_4)                           0.00       1.35 r
+  genblk7[3].ha10/U4/Y (XOR2X1_HVT)                       0.16       1.52 f
+  genblk7[3].ha10/s_reg/Q (LATCHX1_LVT)                   0.06       1.58 f
+  genblk7[3].ha10/s (comp2_2_4)                           0.00       1.58 f
+  genblk9[2].fa11/a (comp3_2_9)                           0.00       1.58 f
+  genblk9[2].fa11/U5/Y (XOR2X1_HVT)                       0.16       1.74 r
+  genblk9[2].fa11/U3/Y (AO22X1_HVT)                       0.12       1.85 r
+  genblk9[2].fa11/co_reg/Q (LATCHX1_LVT)                  0.07       1.92 r
+  genblk9[2].fa11/co (comp3_2_9)                          0.00       1.92 r
+  genblk9[3].fa11/ci (comp3_2_8)                          0.00       1.92 r
+  genblk9[3].fa11/U3/Y (AO22X1_HVT)                       0.09       2.01 r
+  genblk9[3].fa11/co_reg/Q (LATCHX1_LVT)                  0.07       2.08 r
+  genblk9[3].fa11/co (comp3_2_8)                          0.00       2.08 r
+  genblk9[4].fa11/ci (comp3_2_7)                          0.00       2.08 r
+  genblk9[4].fa11/U3/Y (AO22X1_HVT)                       0.09       2.18 r
+  genblk9[4].fa11/co_reg/Q (LATCHX1_LVT)                  0.07       2.24 r
+  genblk9[4].fa11/co (comp3_2_7)                          0.00       2.24 r
+  genblk9[5].fa11/ci (comp3_2_6)                          0.00       2.24 r
+  genblk9[5].fa11/U3/Y (AO22X1_HVT)                       0.09       2.34 r
+  genblk9[5].fa11/co_reg/Q (LATCHX1_LVT)                  0.07       2.41 r
+  genblk9[5].fa11/co (comp3_2_6)                          0.00       2.41 r
+  genblk9[6].fa11/ci (comp3_2_5)                          0.00       2.41 r
+  genblk9[6].fa11/U3/Y (AO22X1_HVT)                       0.09       2.50 r
+  genblk9[6].fa11/co_reg/Q (LATCHX1_LVT)                  0.07       2.57 r
+  genblk9[6].fa11/co (comp3_2_5)                          0.00       2.57 r
+  genblk9[7].fa11/ci (comp3_2_4)                          0.00       2.57 r
+  genblk9[7].fa11/U3/Y (AO22X1_HVT)                       0.09       2.66 r
+  genblk9[7].fa11/co_reg/Q (LATCHX1_LVT)                  0.07       2.73 r
+  genblk9[7].fa11/co (comp3_2_4)                          0.00       2.73 r
+  genblk9[8].fa11/ci (comp3_2_3)                          0.00       2.73 r
+  genblk9[8].fa11/U3/Y (AO22X1_HVT)                       0.09       2.82 r
+  genblk9[8].fa11/co_reg/Q (LATCHX1_LVT)                  0.07       2.89 r
+  genblk9[8].fa11/co (comp3_2_3)                          0.00       2.89 r
+  genblk9[9].fa11/ci (comp3_2_2)                          0.00       2.89 r
+  genblk9[9].fa11/U3/Y (AO22X1_HVT)                       0.09       2.98 r
+  genblk9[9].fa11/co_reg/Q (LATCHX1_LVT)                  0.07       3.05 r
+  genblk9[9].fa11/co (comp3_2_2)                          0.00       3.05 r
+  genblk9[10].fa11/ci (comp3_2_1)                         0.00       3.05 r
+  genblk9[10].fa11/U3/Y (AO22X1_HVT)                      0.09       3.14 r
+  genblk9[10].fa11/co_reg/Q (LATCHX1_LVT)                 0.07       3.21 r
+  genblk9[10].fa11/co (comp3_2_1)                         0.00       3.21 r
+  ha13/b (comp2_2_1)                                      0.00       3.21 r
+  ha13/U4/Y (XOR2X1_HVT)                                  0.16       3.37 f
+  ha13/s_reg/Q (LATCHX1_LVT)                              0.05       3.42 f
+  ha13/s (comp2_2_1)                                      0.00       3.42 f
+  p[15] (out)                                             0.00       3.42 f
+  data arrival time                                                  3.42
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
